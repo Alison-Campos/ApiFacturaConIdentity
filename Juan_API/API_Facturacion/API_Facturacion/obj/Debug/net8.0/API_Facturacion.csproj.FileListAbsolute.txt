@@ -424,3 +424,9 @@ C:\Users\aliso\OneDrive\Documents\GitHub\ApiFacturaConIdentity\Juan_API\API_Fact
 C:\Users\aliso\OneDrive\Documents\GitHub\ApiFacturaConIdentity\Juan_API\API_Facturacion\API_Facturacion\obj\Debug\net8.0\API_Facturacion.pdb
 C:\Users\aliso\OneDrive\Documents\GitHub\ApiFacturaConIdentity\Juan_API\API_Facturacion\API_Facturacion\obj\Debug\net8.0\API_Facturacion.genruntimeconfig.cache
 C:\Users\aliso\OneDrive\Documents\GitHub\ApiFacturaConIdentity\Juan_API\API_Facturacion\API_Facturacion\obj\Debug\net8.0\ref\API_Facturacion.dll
+C:\Users\aliso\OneDrive\Documents\GitHub\ApiFacturaConIdentity\Juan_API\API_Facturacion\API_Facturacion\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\aliso\OneDrive\Documents\GitHub\ApiFacturaConIdentity\Juan_API\API_Facturacion\API_Facturacion\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\aliso\OneDrive\Documents\GitHub\ApiFacturaConIdentity\Juan_API\API_Facturacion\API_Facturacion\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\aliso\OneDrive\Documents\GitHub\ApiFacturaConIdentity\Juan_API\API_Facturacion\API_Facturacion\bin\Debug\net8.0\Microsoft.Extensions.Identity.Core.dll
+C:\Users\aliso\OneDrive\Documents\GitHub\ApiFacturaConIdentity\Juan_API\API_Facturacion\API_Facturacion\bin\Debug\net8.0\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\aliso\OneDrive\Documents\GitHub\ApiFacturaConIdentity\Juan_API\API_Facturacion\API_Facturacion\bin\Debug\net8.0\Microsoft.Extensions.Options.dll

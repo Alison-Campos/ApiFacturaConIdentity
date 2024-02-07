@@ -3,6 +3,7 @@ using API_Facturacion.Data;
 using API_Facturacion.Repository;
 using API_Facturacion.Repository.IRepository;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
@@ -18,8 +19,13 @@ builder.Services.AddDbContext<Context>(options =>
 {
     options.UseSqlServer(builder.Configuration.GetConnectionString("ConectionSQL"));
 });
+
+//Soporte para autenticacion con .Net Entity
+builder.Services.AddIdentity<IdentityUser, IdentityRole>().AddEntityFrameworkStores<Context>();
+
 //anadimos cache
 builder.Services.AddResponseCaching();
+
 //Agregamos los repositorios
 builder.Services.AddScoped<IProductoRepositorio, ProductoRepositorio>();
 builder.Services.AddScoped<IClienteRepositorio, ClienteRepositorio>();
